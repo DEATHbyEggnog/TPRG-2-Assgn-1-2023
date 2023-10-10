@@ -12,3 +12,10 @@ def test_area_triangle():
     assert area_triangle(3, 4) == 6.0
     assert area_triangle(0, 0) == 0
     assert area_triangle(6, 8) == 24.0
+
+# Area of circle
+def test_area_circle():
+    #Test cases for area_circle.
+    assert area_circle(5) == 78.53981633974483
+    assert area_circle(0) == 0
+    assert area_circle(10) == 314.1592653589793
