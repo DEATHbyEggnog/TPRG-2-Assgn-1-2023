@@ -19,3 +19,10 @@ def test_area_circle():
     assert area_circle(5) == 78.53981633974483
     assert area_circle(0) == 0
     assert area_circle(10) == 314.1592653589793
+
+# Volume of sphere
+def test_volume_sphere():
+    #Test cases for volume_sphere.
+    assert volume_sphere(5) == 523.5987755982989
+    assert volume_sphere(0) == 0
+    assert volume_sphere(10) == 4188.790204786391
