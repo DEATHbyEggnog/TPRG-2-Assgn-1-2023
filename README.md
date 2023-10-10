@@ -26,3 +26,10 @@ def test_volume_sphere():
     assert volume_sphere(5) == 523.5987755982989
     assert volume_sphere(0) == 0
     assert volume_sphere(10) == 4188.790204786391
+
+# Volume of cube
+def test_volume_cube():
+    #Test cases for volume_cube.
+    assert volume_cube(3) == 27
+    assert volume_cube(0) == 0
+    assert volume_cube(5) == 125
